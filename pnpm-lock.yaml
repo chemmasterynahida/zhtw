@@ -147,6 +147,9 @@ importers:
       '@biomejs/biome':
         specifier: 2.2.4
         version: 2.2.4
+      '@iconify-json/streamline-logos':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
         version: 4.1.2(rollup@2.79.2)
@@ -1099,6 +1102,9 @@ packages:
 
   '@iconify-json/material-symbols@1.2.36':
     resolution: {integrity: sha512-PDz2D/nD8PsqEnNrwoKd139Ni2zXvAtz4kYHR+fCDdk62lnDQhxSQzDJ34a/gDnugiQJbEpv5RlyjZ3SgJSdmg==}
+
+  '@iconify-json/streamline-logos@1.2.0':
+    resolution: {integrity: sha512-eEMC8BvJTCUiR/xdAjKuJwRGnKV5v9Prp2wgONFLKILq1om/5Pz+EUsFXVqYSVeIAUfguaB2tjy1wM7wJbs0IQ==}
 
   '@iconify/svelte@4.2.0':
     resolution: {integrity: sha512-fEl0T7SAPonK7xk6xUlRPDmFDZVDe2Z7ZstlqeDS/sS8ve2uyU+Qa8rTWbIqzZJlRvONkK5kVXiUf9nIc+6OOQ==}
@@ -6287,6 +6293,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/material-symbols@1.2.36':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/streamline-logos@1.2.0':
     dependencies:
       '@iconify/types': 2.0.0
 
