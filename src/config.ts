@@ -7,15 +7,10 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
-function getInitialLang(): string {
-  // Example: read from localStorage or default to 'en'
-  return localStorage.getItem('lang') || 'en';
-}
-
 export const siteConfig: SiteConfig = {
 	title: "Fuwari",
 	subtitle: "Demo Site",
-	lang: getInitialLang(), // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 57, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -43,11 +38,6 @@ export const siteConfig: SiteConfig = {
 		// }
 	],
 };
-
-export function setLanguage(lang: string) {
-	siteConfig.lang = lang;
-	localStorage.setItem('lang', lang);
-}
 
 export const navBarConfig: NavBarConfig = {
 	links: [
