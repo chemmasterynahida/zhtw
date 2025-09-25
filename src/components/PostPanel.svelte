@@ -63,23 +63,23 @@ onMount(async () => {
 	}
 
 	const grouped = filteredPosts.reduce(
-	    (acc, post) => {
-		    const category = post.data.category || "Uncategorized";
-		    if (!acc[category]) {
-		    	acc[category] = [];
-	    	}
-	    	acc[category].push(post);
-	    	return acc;
-    	},
-    	{} as Record<string, Post[]>,
-    );
+		(acc, post) => {
+			const category = post.data.category || "Uncategorized";
+			if (!acc[category]) {
+				acc[category] = [];
+			}
+			acc[category].push(post);
+			return acc;
+		},
+		{} as Record<string, Post[]>,
+	);
 
 	const groupedPostsArray = Object.keys(grouped).map((category) => ({
-	    category,
-	    posts: grouped[category],
-    }));
+		category,
+		posts: grouped[category],
+	}));
 
-    groupedPostsArray.sort((a, b) => a.category.localeCompare(b.category));
+	groupedPostsArray.sort((a, b) => a.category.localeCompare(b.category));
 
 	groups = groupedPostsArray;
 });
