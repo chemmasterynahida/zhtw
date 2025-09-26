@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
 		src: "assets/images/nahida-wp.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "top", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: true, // Display the credit text of the banner image
+			enable: false, // Display the credit text of the banner image
 			text: "原神-彩糖與薔薇的幻色頌", // Credit text to be displayed
 			url: "https://genshin.hoyoverse.com/zh-tw/news/detail/126536", // (Optional) URL link to the original artwork or artist's page
 		},
@@ -64,7 +64,7 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:google", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://www.google.com",
+			url: "mailto:chemmasterynahida.gmail.com",
 		},
 		{
 			name: "YouTube",
@@ -75,6 +75,11 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/chemmasterynahida/chemmasterynahida.github.io",
+		},
+		{
+			name: "HoYoLAB",
+			icon: "mdi:alpha-h-box",
+			url: "https://www.hoyolab.com/accountCenter/postList?id=425986572",
 		},
 	],
 };

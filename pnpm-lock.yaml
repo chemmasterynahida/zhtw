@@ -147,6 +147,12 @@ importers:
       '@biomejs/biome':
         specifier: 2.2.4
         version: 2.2.4
+      '@iconify-json/iconoir':
+        specifier: ^1.2.9
+        version: 1.2.9
+      '@iconify-json/mdi':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@iconify-json/streamline-logos':
         specifier: ^1.2.0
         version: 1.2.0
@@ -1100,8 +1106,14 @@ packages:
   '@iconify-json/fa6-solid@1.2.4':
     resolution: {integrity: sha512-LmDNNdJVyvF5mPm1yxWvL8KjCc/E8LzoqnF1LNTVpyY2ZJRUlGOWuPIThdbuFBF2IovgttkIyumhyqfmlHdwKg==}
 
+  '@iconify-json/iconoir@1.2.9':
+    resolution: {integrity: sha512-TXcx8mnxuZ0Weq104HwXZFPI0mlJzKjoy4nE20B803+Jrt7g2u4uc2iCGyHKpdqXVws3KaMTMDmY4yExy9Z+Qw==}
+
   '@iconify-json/material-symbols@1.2.36':
     resolution: {integrity: sha512-PDz2D/nD8PsqEnNrwoKd139Ni2zXvAtz4kYHR+fCDdk62lnDQhxSQzDJ34a/gDnugiQJbEpv5RlyjZ3SgJSdmg==}
+
+  '@iconify-json/mdi@1.2.3':
+    resolution: {integrity: sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==}
 
   '@iconify-json/streamline-logos@1.2.0':
     resolution: {integrity: sha512-eEMC8BvJTCUiR/xdAjKuJwRGnKV5v9Prp2wgONFLKILq1om/5Pz+EUsFXVqYSVeIAUfguaB2tjy1wM7wJbs0IQ==}
@@ -6292,7 +6304,15 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
+  '@iconify-json/iconoir@1.2.9':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/material-symbols@1.2.36':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
