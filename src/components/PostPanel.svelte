@@ -90,7 +90,7 @@ onMount(async () => {
         <div>
             <div class="flex flex-row w-full items-center h-[3.75rem]">
                 <div class="w-[15%] md:w-[10%] transition text-2xl font-bold text-right text-75">
-                    {group.year}
+                    {group.category}
                 </div>
                 <div class="w-[15%] md:w-[10%]">
                     <div

@@ -14,6 +14,8 @@ tags = params.has("tag") ? params.getAll("tag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
 
+let allowedCategories = ["Study", "Study2"];
+
 interface Post {
 	slug: string;
 	data: {
@@ -62,24 +64,28 @@ onMount(async () => {
 		filteredPosts = filteredPosts.filter((post) => !post.data.category);
 	}
 
+    filteredPosts = filteredPosts.filter(
+        (post) => post.data.category && allowedCategories.includes(post.data.category)
+    );
+
 	const grouped = filteredPosts.reduce(
 		(acc, post) => {
-			const year = post.data.published.getFullYear();
-			if (!acc[year]) {
-				acc[year] = [];
+			const category = post.data.category || "Uncategorized";
+			if (!acc[category]) {
+				acc[category] = [];
 			}
-			acc[year].push(post);
+			acc[category].push(post);
 			return acc;
 		},
-		{} as Record<number, Post[]>,
+		{} as Record<string, Post[]>,
 	);
 
-	const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
-		year: Number.parseInt(yearStr, 10),
-		posts: grouped[Number.parseInt(yearStr, 10)],
+	const groupedPostsArray = Object.keys(grouped).map((category) => ({
+		category,
+		posts: grouped[category],
 	}));
 
-	groupedPostsArray.sort((a, b) => b.year - a.year);
+	groupedPostsArray.sort((a, b) => a.category.localeCompare(b.category));
 
 	groups = groupedPostsArray;
 });
@@ -90,7 +96,7 @@ onMount(async () => {
         <div>
             <div class="flex flex-row w-full items-center h-[3.75rem]">
                 <div class="w-[15%] md:w-[10%] transition text-2xl font-bold text-right text-75">
-                    {group.year}
+                    {group.category}
                 </div>
                 <div class="w-[15%] md:w-[10%]">
                     <div
