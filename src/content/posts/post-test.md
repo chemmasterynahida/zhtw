@@ -3,6 +3,7 @@ title: Draft Example
 published: 2025-09-27
 tags: [Markdown, Blogging, Demo]
 category: Posts
+lang: en
 draft: false
 ---
 

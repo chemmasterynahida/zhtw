@@ -1,13 +1,14 @@
 ---
-title: Markdown Example
+title: 標題1
 published: 2023-10-01
 description: A simple example of a Markdown blog post.
 tags: [Markdown, Blogging, Demo]
 category: Examples
-lang: en
+lang: zh-CN
 draft: true
 ---
 
+# 標題1
 # An h1 header
 
 Paragraphs are separated by a blank line.

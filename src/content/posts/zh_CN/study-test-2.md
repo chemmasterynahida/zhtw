@@ -1,13 +1,13 @@
 ---
-title: Draft Example
+title: 草稿(study2)
 published: 2025-09-27
 tags: [Markdown, Blogging, Demo]
-category: Study
-lang: en
+category: Study2
+lang: zh-CN
 draft: false
 ---
 
-# This Article is a Draft
+# 草稿(study2)
 
 This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
 

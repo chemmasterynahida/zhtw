@@ -170,4 +170,19 @@ export default defineConfig({
 			},
 		},
 	},
+	i18n: {
+		locales: ["en", "zh_CN", "zh_TW", "ja", "ko", "fr"],
+		defaultLocale: "en",
+		fallback: {
+			zh_CN: "en",
+			zh_TW: "en",
+			ja: "en",
+			ko: "en",
+			fr: "en"
+		},
+		routing: {
+			prefixDefaultLocale: true,
+			redirectToDefaultLocale: false
+		},
+	},
 });

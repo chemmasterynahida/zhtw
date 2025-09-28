@@ -1,13 +1,13 @@
 ---
-title: Draft Example
-published: 2025-09-27
+title: 草稿
+published: 2022-07-01
 tags: [Markdown, Blogging, Demo]
-category: Study
-lang: en
-draft: false
+category: Examples
+lang: zh-CN
+draft: true
 ---
 
-# This Article is a Draft
+# 草稿
 
 This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
 

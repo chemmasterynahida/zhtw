@@ -1,7 +1,7 @@
 ---
-lang: en
+lang: zh-cn
 ---
-# About
+# 關於
 
 ![Nahida](/images/nahida.png)
 
