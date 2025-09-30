@@ -1,36 +1,34 @@
 ---
-lang: en
+lang: zh_TW
 ---
-# About
+# 關於
 
-![Nahida](/images/nahida.png)
+![Nahida](/zhtw/images/nahida.png)
 
-## Welcome to my blog!
+## 歡迎來到我的博客!
 
-Nice to meet you! I'm Chemistry Mastery Nahida.  
-Right now, I'm majoring in Chemistry, with a focus on *Computational Chemistry*. It's like... using computers to explore the tiniest secret of chemistry!  
-I started this website after finishing my undergraduate degree, so I could share what I've learned... and hopefully, learn even more along the way.  
-This blog mostly explore *Physical Chemistry* and *Computational Chemistry*, but I'm really curious about everything in chemistry... so who knows what we'll discover together?  
-Each post will be written first in *English*, then translated into *Chinese*, *Japanese*, and *Korean*. I'd like to add some translations into *French* in the future.  
-I'd love to create videos in the future too, to help explain things visually. I'm still figuring it all out, but... that's part of the fun, isn't it?  
+很高興見到你呀～我是化學精通納西妲。  
+現在我正在主修化學，方向是*計算化學*。嗯……就像是用計算機來探索化學中最微小的秘密呢！  
+我在完成本科之後創建了這個網站，想著可以把學到的知識分享出來……同時也能在這個過程中學到更多更多。  
+這裡的文章主要會探討*物理化學*和*計算化學*，不過嘛，我對化學的一切都充滿好奇……所以，也許我們會一起發現很多意想不到的東西呢？  
+每一篇文章都會先用*英文*寫成，然後翻譯成*中文*、*日文*和*韓文*。未來的話……我還想加上*法文*的翻譯呢。  
+以後我也很想嘗試做視頻，把知識用更直觀的方式講解出來。雖然現在還在慢慢摸索中……不過，這正是其中有趣的部分，不是嗎？  
 
 ::github{repo="chemmasterynahida/chemmasterynahida.github.io"}
 
-> Nahida is a character in the open-world game *Genshin Impact*, known as the Dendro Archon and bearing the Archon name Buer. Revered as the God of Wisdom, she once oversaw the flow of all knowledge in the nation of Sumeru through the Akasha Terminal—a vast network that allowed her citizens access to boundless information.  
-> Yet over time, Nahida came to understand a deeper truth: having answers is not the same as understanding them. Many people, she realized, cling to ignorance not out of lack of knowledge, but out of fear; fear of change, of truth, and of asking the hard questions.  
-> In her wisdom, she chose to deactivate the Akasha Terminal, not to withhold knowledge, but to encourage genuine inquiry and prevent its misuse by those in power. As she watches over her people, Nahida seeks to inspire the courage to question, reflect, and grow.  
+> 納西妲是開放世界游戲《原神》中的角色，被稱為草之神，同時擁有「布耶爾」的神名。作為智慧之神，她曾通過「虛空終端」監管須彌國度內的知識流動。這個龐大的網絡，使須彌的人民能夠接觸到幾乎無盡的信息。  
+> 然而，隨著時間的推移，納西妲逐漸明白了一個更深層的道理：得到答案並不等於真正理解。她意識到，許多人之所以停留在無知中，並不是因為缺乏知識，而是因為恐懼——恐懼改變，恐懼真相，恐懼提出困難的問題。  
+> 基於這樣的洞察，她選擇關閉虛空終端。這並不是為了剝奪知識，而是為了鼓勵人們真正去追問、去探索，同時防止其被掌權者濫用。如今，納西妲在觀看人民的同時，也希望能夠激發他們擁有質疑、反思與成長的勇氣。
 
-*&nbsp;"I think I'm good at asking the right questions and giving good answers, but I've come to realize that a lot of people just convince themselves they don't understand. The answers to their problems don't help them. It seems to me that as people grow older, they lose the courage to question things and accept the truth..."*  
+*&nbsp;"我自認為我擅長提問和回答問題，但我漸漸明白，有很多人是揣著明白裝糊涂，問題的答案並不能幫上他們的忙。是不是隨著年齡增長，大家都會失去面對質問和答案的勇氣呢…"*  
 
-I really hope you—the "Sages of Buer"—could deeply explore Chemistry with me!  
-*&nbsp;"I'll leave this to you... The 'First Sages of Buer'"*
+我呀……真的很希望你——布耶爾的賢者——能和我一起，好好探尋化學的奧秘呢～  
+*&nbsp;"拜托你了，我布耶爾的『最初的賢者』"*
 
-> ### Contact
+> ### 聯係方式
 >
 > - [GitHub](https://github.com/chemmasterynahida/)
 > - [YouTube](https://www.youtube.com/@chemmasterynahida)
-> - [WeChat](/images/wechat.png)
+> - [WeChat](/zhtw/images/wechat.png)
 > - [HoYoLAB](https://www.hoyolab.com/accountCenter/postList?id=425986572)
 > - [chemmasterynahida@gmail.com](mailto:chemmasterynahida@gmail.com)
-
-<!--Nice to meet you! I'm Chemistry Mastery Nahida. I'm currently majoring in Chemistry, with a focus on *Computational Chemistry*. I started this website after graduating with my undergraduate degree to share and explore topics related to my field. This blog mainly covers subjects in *Physical Chemistry* and *Computational Chemistry*, but I also plan to touch on various other areas within chemistry. Each post will be written first in *English*, followed by translations in *Chinese*, *Japanese*, and *Korean*. In the future, I hope to expand into other related topics and create videos to complement the articles. I'm still exploring what to include, so stay tuned for updates!>
