@@ -1,0 +1,1 @@
+import"./zh_TW.D-q-AWTF.js";function u(t,n){const o=t.replace(/^\/|\/$/g,"").toLowerCase(),e=n.replace(/^\/|\/$/g,"").toLowerCase();return o===e}function r(...t){return t.join("/").replace(/\/+/g,"/")}function i(t){return a(`/posts/${t}/`)}function a(t){return r("","/zhtw/",t)}export{i as g,u as p,a as u};
