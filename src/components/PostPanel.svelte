@@ -112,7 +112,7 @@ onMount(async () => {
                     <div class="flex flex-row justify-start items-center h-full">
                         <!-- date -->
                         <div class="w-[15%] md:w-[10%] transition text-sm text-right text-50">
-                            {formatDate(post.data.published)}
+                            <!--{formatDate(post.data.published)}-->
                         </div>
 
                         <!-- dot and line -->

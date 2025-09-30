@@ -14,7 +14,7 @@ tags = params.has("tag") ? params.getAll("tag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
 
-let allowedCategories = ["Study", "Study2"];
+let allowedCategories = ["Quantum Chemistry", "Physical Chemistry", "Computational Chemistry", "Quantum Computing"];
 
 interface Post {
 	slug: string;
@@ -27,7 +27,7 @@ interface Post {
 }
 
 interface Group {
-	year: number;
+  category: any;
 	posts: Post[];
 }
 
@@ -118,7 +118,7 @@ onMount(async () => {
                     <div class="flex flex-row justify-start items-center h-full">
                         <!-- date -->
                         <div class="w-[15%] md:w-[10%] transition text-sm text-right text-50">
-                            {formatDate(post.data.published)}
+                            <!--{formatDate(post.data.published)}-->
                         </div>
 
                         <!-- dot and line -->

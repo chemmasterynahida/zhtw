@@ -7,6 +7,7 @@
 
 	const LANGUAGES = [
 		{ label: "English", url: "https://chemmasterynahida.github.io" },
+		{ label: "Français", url: "https://fr.chemmasterynahida.github.io"},
 		{ label: "简体中文", url: "https://zhcn.chemmasterynahida.github.io" },
         { label: "繁體中文", url: "https://zhtw.chemmasterynahida.github.io" },
         { label: "日本語", url: "https://ja.chemmasterynahida.github.io" },

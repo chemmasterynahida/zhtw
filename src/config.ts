@@ -56,25 +56,25 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/nahida.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "化學精通納西妲",
-	bio: "ChemMasteryNahida",
+	name: "ChemMasteryNahida",
+	bio: "化學精通納西妲",
 	links: [
 		{
-			name: "Google",
-			icon: "fa6-brands:google", // Visit https://icones.js.org/ for icon codes
+			name: "YouTube",
+			icon: "fa6-brands:youtube", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "mailto:chemmasterynahida.gmail.com",
-		},
-		{
-			name: "YouTube",
-			icon: "fa6-brands:youtube",
 			url: "https://www.youtube.com/@ChemMasteryNahida",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/chemmasterynahida/chemmasterynahida.github.io",
+		},
+		{
+			name: "WeChat",
+			icon: "fa6-brands:weixin",
+			url: "/images/wechat.png",
 		},
 		{
 			name: "HoYoLAB",
