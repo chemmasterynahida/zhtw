@@ -26,7 +26,7 @@ draft: false
 
 ## 普朗克之前（1900年之前）
 
-讓我們回到牛頓的時代，去看看一個讓物理學家百思不得其解的問題——**黑體輻射**。  
+讓我們回到十九世紀末，去看看一個讓物理學家百思不得其解的問題——**黑體輻射**。  
 **牛頓**早在他的著作《光學》中就提到過類似的現象：  
 
 > "Do not black Bodies conceive heat more easily from Light than those of other Colours do, by reason that the Light falling on them is not reflected outwards, but enters the Bodies, and is often reflected and refracted within them, until it be stifled and lost?"  
@@ -202,9 +202,8 @@ $$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$
 > $$(\frac{\partial^{2} S}{\partial U^{2}})^{-1}\propto U^{2}~(RJ)$$  
 > 普朗克將兩種形式結合起來：  
 > $$(\frac{\partial^{2} S}{\partial U^{2}})^{-1}=C_{1}U+C_{2}U^{2}$$  
-> 最終，他得出了這樣的方程形式：  
-> $$U=\frac{C_{1}C_{2}}{Ce^{C_{1}T}-1}$$  
-> 其中，$C$ 是積分常數。普朗克在報告中給出了 $C=1$。  
+> 最終，他得出了這樣對波長的方程形式：  
+> $$U=\frac{C\lambda^{-5}}{e^{c/\lambda T}-1}$$  
 
 ### 1900年12月：能量的離散化
 
@@ -242,13 +241,18 @@ $W$: "*Wahrscheinlichkeit*", 微觀狀態數量
 最終，他得到了那個改變物理史的結果：  
 $$U=\frac{\epsilon}{e^{\epsilon/kT}-1}=\frac{hv}{e^{hv/kT}-1}$$  
 
-這正是普朗克那條著名的方程。光的能量，只能以 $h\nu$ 的整數倍存在。  
+這正是普朗克那條著名的方程。  
+光的能量，只能以 $h\nu$ 的整數倍存在。  
 它揭示了能量不是連續的，而是由一個個離散的量子組成的。  
+他因發現能量子而榮獲1918年諾貝爾物理學獎。  
+
+> *1918年諾貝爾物理學獎授予馬克斯·卡爾·恩斯特·路德維希·普朗克，"因他的對量子的發現而推動物理學的發展"。*  
+
 從此，人類的目光第一次觸及了量子世界的門檻——那一刻，知識的光，悄悄地在科學的夜空中亮起。  
 這標誌了量子時代的黎明。  
 人類第一次窺見了宇宙最微小的秘密。  
 
-## References
+## 參考文獻
 
 Blackbody Radiation: Wikipedia (<https://en.wikipedia.org/wiki/Blackbody%20Radiation>)  
 Planck''s Law: Wikipedia (<https://en.wikipedia.org/wiki/Planck%27s%20Law>)  
