@@ -14,7 +14,7 @@ tags = params.has("tag") ? params.getAll("tag") : [];
 categories = params.has("category") ? params.getAll("category") : [];
 const uncategorized = params.get("uncategorized");
 
-let allowedCategories = ["Quantum Chemistry", "Physical Chemistry", "Computational Chemistry", "Quantum Computing"];
+let allowedCategories = ["量子化學", "物理化學", "計算化學", "量子計算"];
 
 interface Post {
 	slug: string;
