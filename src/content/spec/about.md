@@ -30,5 +30,5 @@ lang: zh_TW
 > - [GitHub](https://github.com/chemmasterynahida/)
 > - [YouTube](https://www.youtube.com/@chemmasterynahida)
 > - [WeChat](/zhtw/images/wechat.png)
-> - [HoYoLAB](https://www.hoyolab.com/accountCenter/postList?id=425986572)
+> - [Discord](https://discord.gg/K56kRv3x)
 > - [chemmasterynahida@gmail.com](mailto:chemmasterynahida@gmail.com)
