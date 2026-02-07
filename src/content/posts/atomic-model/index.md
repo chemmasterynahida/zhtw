@@ -2,7 +2,7 @@
 title: "量子化學：1.3. 原子模型"  
 published: 2025-10-24  
 description: 「原子的結構是如何被揭示的？又有哪些障礙需要被跨越呢？」  
-image: "[electron-cloud-model.png](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/electron-cloud-model.png)"  
+image: "https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/electron-cloud-model.png"  
 tags: ["量子化學"]  
 category: 量子化學  
 lang: zh_CN  
