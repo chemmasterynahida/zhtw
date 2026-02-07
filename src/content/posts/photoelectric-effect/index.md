@@ -1,8 +1,8 @@
 ---
-title: 1.2. 光電效應與光的特性
+title: "量子化學：1.2. 光電效應與光的特性"
 published: 2025-10-16
 description: "愛因斯坦的理論如何改變了我們對光的理解？"
-image: "photoelectric-effect.png"
+image: "https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/photoelectric-effect.png"
 tags: ["量子化學"]
 category: 量子化學
 lang: zh-CN
@@ -74,7 +74,7 @@ draft: False
 其中，*斯托列托夫*與*菲利普·倫納德*進行了最細致的研究。  
 他們做了定量的測量，而倫納德還發現——紫外光甚至能夠使氣體分子電離，讓電子從原子中被釋放出來。  
 
-![Lenard's experiment](lenard-experiment.png "lenard's experiment")  
+![Lenard's experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/lenard-experiment.png "Lenard's experiment")  
 
 這是倫納德的實驗裝置。  
 他仔細研究光是如何讓電子從金屬表面逃逸的。  
@@ -83,8 +83,7 @@ draft: False
 當金屬釋放電子時，我們可以施加一個負電壓，將這些電子推回去——就像設置了一道看不見的屏障。  
 電位越強，電子就需要越大的能量才能越過這道障礙。  
 
-![Lenard's observation](lenard-stop-potential.jpg "Lenard's observation")  
-
+![Lenard's observation](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/lenard-stop-potential.jpg "Lenard's observation")  
 在實驗中，倫納德發現了一個極為有趣的結果：  
 **遏止電位會隨著光的頻率增加而變大**。  
 
@@ -96,7 +95,7 @@ draft: False
 根據*楊氏雙縫實驗*與*麥克斯韋的電磁理論*，光應當表現為一種**電磁波**。  
 如果真是如此……那結果又會怎樣呢？  
 
-![Double slit](Double-slit.png "Double-slit experiment")  
+![Double slit](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/Double-slit.png "Double-slit experiment")  
 
 當光照射到金屬表面時，光的波動應該會逐漸把能量傳遞給金屬中的電子。  
 只要電子積累到足夠的能量，它就能夠脫離金屬——就像一個小小的泳者，借助浪潮的力量被推向岸邊。  
@@ -126,7 +125,7 @@ draft: False
 
 如果我們把光看作由這些**能量量子**組成，那麼每一個光量子——也就是我們如今稱作的**光子（photon）**，都可以撞擊金屬內部的電子，將能量傳遞給它。  
 
-![Photoelectric effect](photoelectric-effect.png "Photoelectric effect")  
+![Photoelectric effect](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/photoelectric-effect.png "Photoelectric effect")  
 
 在金屬中，電子受到原子吸引力的束縛。  
 只有當入射光子的能量足夠大，才能讓電子擺脫這種束縛，飛離金屬表面。  
@@ -154,7 +153,7 @@ $$E=h\nu-\Phi$$
 多年之後，在 1916 年，*羅伯特·密立根*親自驗證了愛因斯坦的理論。  
 他測量了不同頻率光線下電子的能量，結果發現兩者之間竟呈完美的**線性關系**——其斜率，正好就是普朗克常數 $h$ 本身！  
 
-![Millikan's experiment](kinetic-energy.png "Millikan's experiment")  
+![Millikan's experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/kinetic-energy.png "Millikan's experiment")  
 
 一個公式，一種思想——光，不再只是波。  
 它可以同時是**波**，也是**粒子**，在兩種真理之間舞動。  
