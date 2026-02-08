@@ -116,39 +116,7 @@ $$\lambda_{peak}=\frac{b}{T}$$
 ### 斯特藩–玻爾茲曼定律的推導
 
 對所有頻率積分，可得總輻射能量：  
-我們也可以從中獲取地表輻射。
-**斯特藩–玻爾茲曼定律**  
-$$M=\sigma T^{4}=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}T^{4}$$  
-$$\sigma=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}=5.67\times10^{-8}W/m^{2}\cdot K^{4}$$  
-這個數值與實驗結果完全吻合～  
-
-### 維恩位移定律的推導
-
-維恩位移定律（Wien’s displacement law） 描述的是在什麼波長（或頻率）下，黑體的輻射最強。  
-輻射強度的峰值波長爲：  
-**維恩位移定律**  
-$$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
-溫度越高，輻射峰值越短——  
-所以，熾熱的物體會從紅光逐漸變爲黃光、再到藍白光。  
-
-### $\nu\rightarrow0$
-
-瑞利–金斯定律（Rayleigh–Jeans law） 能很好地解釋低頻情況下的實驗結果。在低頻極限下（$\nu$ 很小時），普朗克定律應當趨近於瑞利–金斯定律：  
-$$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi kT\nu^{2}}{c^{3}}d\nu$$  
-當頻率很小時，普朗克定律就會收斂爲瑞利–金斯定律。  
-
-### $\nu\rightarrow\infty$
-
-而在高頻極限下，維恩定律（Wien’s law） 則更符合實驗結果。對於較大的頻率 $\nu$，普朗克定律會收斂爲維恩定律：  
-> $$\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi h\nu^{3}}{c^{3}}\cdot e^{-h\nu/kT}d\nu=a\nu^{3}e^{-b\nu/T}$$  
-因此，在高頻時，普朗克定律的形式會非常接近維恩定律。  
-
----
----
-
-## 推導
-
-### 斯特藩–玻爾茲曼定律：推導
+我們也可以從中獲取地表輻射。  
 
 > $$\int du=\int_{0}^{\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 令 $x=h\nu/kT$，因此 $dx=hd\nu/kT$，可以進行變量替換：  
@@ -160,7 +128,15 @@ $$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d
 > 這樣，我們就得到了黑體輻射的總輻射能量（單位：$J/m^{3}$）。不過，斯特藩–玻爾茲曼定律討論的是輻射功率（單位：$W/m^{2}$）。我們可以通過乘上 $c/4$，將體積能量轉換爲單位面積的輻射功率：
 > $$M=E\cdot\frac{c}{4}=\frac{8\pi^{5}k^{4}T^{4}}{15h^{3}c^{3}}\cdot\frac{c}{4}=\frac{2\pi^{5}k^{4}T^{4}}{15h^{3}c^{2}}=\sigma T^{4}$$  
 
-### 維恩位移定律：推導
+**斯特藩–玻爾茲曼定律**  
+$$M=\sigma T^{4}=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}T^{4}$$  
+$$\sigma=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}=5.67\times10^{-8}W/m^{2}\cdot K^{4}$$  
+這個數值與實驗結果完全吻合～  
+
+### 維恩位移定律的推導
+
+維恩位移定律（Wien’s displacement law） 描述的是在什麼波長（或頻率）下，黑體的輻射最強。  
+輻射強度的峰值波長爲：  
 
 > $$\frac{d(du/d\lambda)}{d\lambda}=0$$  
 > 普朗克定律也可以用波長來表示：  
@@ -174,7 +150,14 @@ $$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d
 > 因此，這個關係可以寫作：  
 > $$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
 
-### $\nu\rightarrow0$：推導
+**維恩位移定律**  
+$$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
+溫度越高，輻射峰值越短——  
+所以，熾熱的物體會從紅光逐漸變爲黃光、再到藍白光。  
+
+### $\nu\rightarrow0$
+
+瑞利–金斯定律（Rayleigh–Jeans law） 能很好地解釋低頻情況下的實驗結果。在低頻極限下（$\nu$ 很小時），普朗克定律應當趨近於瑞利–金斯定律：  
 
 > $$\lim_{\nu\rightarrow0}du(\nu,T)=\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 已知極限：  
@@ -182,11 +165,20 @@ $$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d
 > 因此方程可化爲：  
 > $$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi kT\nu^{2}}{c^{3}}d\nu$$  
 
-### $\nu\rightarrow\infty$：推導
+當頻率很小時，普朗克定律就會收斂爲瑞利–金斯定律。  
+
+### $\nu\rightarrow\infty$
+
+而在高頻極限下，維恩定律（Wien’s law） 則更符合實驗結果。對於較大的頻率 $\nu$，普朗克定律會收斂爲維恩定律：  
 
 > $$\lim_{\nu\rightarrow\infty}du(\nu,T)=\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 由於指數函數增長極快，我們可以近似認爲 $e^{h\nu/kT}-1 \approx e^{h\nu/kT}$。
 > $$\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi h\nu^{3}}{c^{3}}\cdot e^{-h\nu/kT}d\nu=a\nu^{3}e^{-b\nu/T}$$  
+
+因此，在高頻時，普朗克定律的形式會非常接近維恩定律。  
+
+---
+---
 
 ## 普朗克的思考與啟發
 
