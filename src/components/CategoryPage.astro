@@ -12,7 +12,7 @@ const { categories } = Astro.props;
 
 <div class="transition grid grid-cols-1 md:grid-cols-2 gap-4 rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
     {categories.map((cat, index) => (
-      <a href={`/${cat.name}/`}
+      <a href={`/zhtw/${cat.name}/`}
         class="card-base flex flex-col w-full rounded-[var(--radius-large)] overflow-hidden relative pl-0 pr-0 pt-0 pb-0 onload-animation"
        style={`animation-delay: calc(var(--content-delay) + ${index * 50}ms)`}
       >
